@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0a0930"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:background="@drawable/firstlayer"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/profile_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+            android:text="My Profile"
+            android:textColor="#ffff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="125dp"
+            android:layout_height="120dp"
+            android:src="@drawable/christoper"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="-110dp"
+            android:paddingTop="10dp"
+            android:text="Christopher Shelton"
+            android:textColor="#ffff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="10dp"
+            android:text="Krakow,Poland"
+            android:textColor="#ffff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rides"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="RIDES"
+            android:textColor="#ffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/freerides"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="-20dp"
+            android:text="FREE RIDES"
+            android:textColor="#ffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/credits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-20dp"
+            android:text="CREDITS"
+            android:textColor="#ffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rides_history"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="7dp"
+            android:text="67"
+            android:textColor="#ffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/freerides_history"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="-48dp"
+            android:text="12"
+            android:textColor="#ffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/credits_data"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="-49dp"
+            android:text="$100"
+            android:textColor="#ffff"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/past_trips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Past trips"
+        android:textSize="15sp"
+        android:textColor="#ffff"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"></TextView>
+
+
+    <TextView
+        android:id="@+id/see_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See all"
+        android:textSize="14sp"
+        android:layout_marginLeft="330dp"
+        android:textColor="#FF5733"
+        android:layout_marginTop="-18dp"/>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/firstlayer"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/past_sourcetrip1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:text="Stare Maisto"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/total_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-22dp"
+            android:text="Total"
+            android:textColor="#ffff"></TextView>
+
+        <TextView
+            android:id="@+id/start_date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="8dp"
+            android:text="Nov 24,18:00"
+            android:textColor="#ffff"></TextView>
+
+        <TextView
+            android:id="@+id/total1_dollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="315dp"
+            android:layout_marginTop="-20dp"
+            android:text="$"
+            android:textColor="#ffff"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/total1_amount1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="328dp"
+            android:layout_marginTop="-37dp"
+            android:text="16"
+            android:textColor="#ffff"
+            android:textSize="39sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/past_destinationtrip1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:text="Meupark st"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/end_date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="8dp"
+            android:text="Nov 24,19:35"
+            android:textColor="#ffff"></TextView>
+
+        <TextView
+            android:id="@+id/travel_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="258dp"
+            android:layout_marginTop="-20dp"
+            android:text="Travel time:95min"
+            android:textColor="#ffff"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/firstlayer"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/past_sourcetrip2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:text="Old Town St"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/total_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-22dp"
+            android:text="Total"
+            android:textColor="#ffff"></TextView>
+
+        <TextView
+            android:id="@+id/start_date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="8dp"
+            android:text="Nov 24,18:00"
+            android:textColor="#ffff"></TextView>
+
+        <TextView
+            android:id="@+id/total2_dollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="315dp"
+            android:layout_marginTop="-20dp"
+            android:text="$"
+            android:textColor="#ffff"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/total2_amount2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="328dp"
+            android:layout_marginTop="-37dp"
+            android:text="23"
+            android:textColor="#ffff"
+            android:textSize="39sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/past_destinationtrip2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:text="Central Park"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/end_date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="8dp"
+            android:text="Nov 24,19:35"
+            android:textColor="#ffff"></TextView>
+
+        <TextView
+            android:id="@+id/travel_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="258dp"
+            android:layout_marginTop="-20dp"
+            android:text="Travel time:95min"
+            android:textColor="#ffff"></TextView>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="129dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/firstlayer"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/past_sourcetrip3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:text="Market St, SF"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/total_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="-22dp"
+            android:text="Total"
+            android:textColor="#ffff"></TextView>
+
+        <TextView
+            android:id="@+id/start_date3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="8dp"
+            android:text="Nov 24,18:00"
+            android:textColor="#ffff"></TextView>
+
+
+        <TextView
+            android:id="@+id/total3_dollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="315dp"
+            android:layout_marginTop="-20dp"
+            android:text="$"
+            android:textColor="#ffff"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/total3_amount3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="328dp"
+            android:layout_marginTop="-37dp"
+            android:text="16"
+            android:textColor="#ffff"
+            android:textSize="39sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/past_destinationtrip3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:text="18th St, Bay Area"
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/end_date3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="8dp"
+            android:text="Nov 24,19:35"
+            android:textColor="#ffff"></TextView>
+
+        <TextView
+            android:id="@+id/travel_time3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="258dp"
+            android:layout_marginTop="-20dp"
+            android:text="Travel time:31min"
+            android:textColor="#ffff"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
